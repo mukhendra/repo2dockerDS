@@ -1,5 +1,3 @@
-#!/bin/bash
-#!/bin/sh
 cd .local
 wget -O longranger-2.2.2.tar.gz "http://cf.10xgenomics.com/releases/genome/longranger-2.2.2.tar.gz?Expires=1563952320&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cDovL2NmLjEweGdlbm9taWNzLmNvbS9yZWxlYXNlcy9nZW5vbWUvbG9uZ3Jhbmdlci0yLjIuMi50YXIuZ3oiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1NjM5NTIzMjB9fX1dfQ__&Signature=hZBjNuX7pjbGYkqPwZn1U6kGtUOgN9bA1GOt0nLogWgQ8Bpx5TewT1AxClfe2Kaq21WPnPyT-~J4Kx3LJYxSOwE1kab~YTCIM0nfeNtaWTthSKtJyVlPCiqm8Wzj-kvyj8YNtbjJG2YSFWFp3YEjCPj34LSxF4xfhtL24zHMACynGyC5LVW-zJR9ZHcthLsORoqsm~OwFkhA1WJlzfyrGLE7lxsKSeUrrcTiBGCFUGZ7JXmMFief94zgQ7Rot~1etjzRmiHccooEIQWaYgDNpLOqN~lvxdPBX3vOf-kt70bc-92g7IFvnEFRXxRj2gqca~gkMSHrufHobIzl2kw39A__&Key-Pair-Id=APKAI7S6A5RYOXBWRPDA"
 tar -xzvf longranger-2.2.2.tar.gz
