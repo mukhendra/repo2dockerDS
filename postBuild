@@ -8,7 +8,7 @@ curl -O http://cf.10xgenomics.com/supp/genome/refdata-hg19-2.1.0.tar.gz
 tar -xzvf longranger-2.2.2.tar.gz
 tar -xzvf refdata-hg19-2.1.0.tar.gz
 export PATH=~/.local/longranger-2.2.2:$PATH
-export PATH=~/.local/cellranger-3.1.2:$PATH
+export PATH=~/.local/cellranger-3.1.0:$PATH
 mkdir /test-ds/
 ln -s /test-ds/ /home/$USERNAME/ .
 
