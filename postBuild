@@ -5,4 +5,5 @@ wget -O cellranger-3.0.2.tar.gz "http://cf.10xgenomics.com/releases/cell-exp/cel
 tar -xzvf cellranger-3.0.2.tar.gz
 export PATH=~/.local/longranger-2.2.2:$PATH
 export PATH=~/.local/cellranger-3.0.2:$PATH
-apt-get install jags
+ln -s /test-ds/ /home/$USERNAME/ .
+
