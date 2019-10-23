@@ -13,9 +13,6 @@ export PATH=~/.local/cellranger-3.1.0:$PATH
 echo "export PATH=~/.local/longranger-2.2.2:$PATH" >> /home/$USERNAME/.bashrc
 echo "export PATH=~/.local/cellranger-3.1.0:$PATH" >> /home/$USERNAME/.bashrc
 cd
-mkdir /test-ds/
-ln -s /test-ds/ /home/$USERNAME/ .
-cd
 mkdir lib
 cd lib
 wget https://github.com/samtools/htslib/archive/1.9.tar.gz
