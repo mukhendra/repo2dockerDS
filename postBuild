@@ -15,6 +15,20 @@ echo "export PATH=~/.local/cellranger-3.1.0:$PATH" >> /home/$USERNAME/.bashrc
 cd
 mkdir /test-ds/
 ln -s /test-ds/ /home/$USERNAME/ .
+cd
+mkdir lib
+cd lib
+wget https://github.com/samtools/htslib/archive/1.9.tar.gz
+tar -xvzf 1.9.tar.gz
+cd htslib-1.9
+tar -xvzf  1.9.tar.gz
+cd htslib-1.9
+make
+make install
+ln -s libhts.so.2 libhts.so.1
+export LD_LIBRARY_PATH=/home/datasci/lib/htslib-1.9/
+echo "export LD_LIBRARY_PATH=/home/datasci/lib/htslib-1.9/" >> /home/$USERNAME/.bashrc
+
 
 
 
